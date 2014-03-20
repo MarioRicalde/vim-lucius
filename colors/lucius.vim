@@ -1,7 +1,8 @@
 " ============================================================================
 " Name:     Lucius vim color scheme
 " Author:   Jonathan Filip <jfilip1024@gmail.com>
-" Version:  8.1.4
+" Forker:   Mario Ricalde <mario@ricalde.mx>
+" Version:  8.1.5
 " ----------------------------------------------------------------------------
 "
 " Light and dark color scheme for GUI and 256 color terminal.
@@ -728,6 +729,9 @@ hi link VimwikiHeader4 BSpecial
 hi link VimwikiHeader5 BConstant
 hi link VimwikiHeader6 BType
 
+" Fugitive
+hi link gitcommitDiscardedFile ErrorMsg
+hi link gitcommitSelectedFile Identifier
 
 " ============================================================================
 " Preset Commands:
